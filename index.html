@@ -9,7 +9,7 @@
 </head>
 <body>
 
-    <form action="enviar.php" method="POST">
+    <form action="correo.php" method="POST">
         <h2>Contacto real</h2>
         <input type="text" name="nombre" placeholder="Escribe tu nombre" required>
         <input type="text" name="correo" placeholder="Escribe tu correo" required>
@@ -17,8 +17,5 @@
         <textarea name="mensaje" placeholder="Cuéntanos tu petición"></textarea>
         <input type="submit" value="Enviar mensaje" name="enviar" >
     </form>
-    <?php
-    include("correo.php");
-   ?>   
 </body>
 </html>
