@@ -1,6 +1,6 @@
 <?php
-if (isset($_POST['enviar'])){
-    if (!empty($_POST['nombre']) && !empty($_POST['correo']) && !empty($_POST['telefono']) && !empty($_POST['mensaje'])) {
+if (isset($_POST['enviar'])) {
+    if (!empty($_POST['nombre']) && !empty($_POST['correo']) && !empty($_POST['asunto']) && !empty($_POST['mensaje'])) {
         $nombre = $_POST['nombre'];
         $correo = $_POST['correo'];
         $asunto = $_POST['asunto'];
