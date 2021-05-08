@@ -7,10 +7,10 @@
 
         $header = "Enviado desde un lugar";
         $mensajeCompleto = $mensaje . "\nAtentamente: " . $nombre;
-        mail($destino, asunto, $mensajeCompleto, $header);
+        mail($destino, $asunto, $mensajeCompleto, $header);
 
         echo "<script>alert('Exitoso')</script>";
-        echo "<script>setTimeout("\location.href='index.html'\", 1000)</script>";
+        echo "<script>setTimeout(\"location.href='index.html'\", 1000)</script>";
 ?>
 
 
